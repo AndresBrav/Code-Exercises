@@ -1,5 +1,5 @@
-// src/index.ts
-const greet = (name: string) => `Hola, ${name}!`;
-console.log(greet("Mundo como estas"));
+import { isPalindrome } from "./Exercises/PalindromeNumber";
+
+console.log(isPalindrome(-121));
 
 
